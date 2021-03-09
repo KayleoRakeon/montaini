@@ -1,0 +1,33 @@
+.selection{
+    width:25%;
+    height:auto;
+    float:left;
+    display:flex;
+    flex-direction:column;
+    padding:0 13px;
+    box-sizing:border-box;
+
+    .wrapper{
+        width:100%;
+        position:relative;
+
+        &::before{
+            content:"";
+            width:12px;
+            height:12px;
+            background:$noir;
+            transform:translateY(-75%) rotate(135deg);
+            position:absolute;
+            top:50%;
+            right:10px;
+            clip-path: polygon(100% 0, 0 0, 100% 100%);
+            pointer-events: none;
+        }
+    }
+    select{
+        appearance:none;
+        width:100%;
+        padding:16px 10px;
+        box-sizing:border-box;
+    }
+}
