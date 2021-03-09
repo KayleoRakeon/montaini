@@ -14,7 +14,9 @@
 
 <main class="home">
     <section>
+
         <h1>Réservez vos vacances<br>à la montagne !</h1>
+
         <article>
             <div>
                 <div class="selection">
@@ -76,6 +78,11 @@
             </div>
             <button>Trouver mes<br>vacances !</button>
         </article>
+
+        <div class="curseur">
+            <div></div>
+        </div>
+        
     </section>
 </main>
 

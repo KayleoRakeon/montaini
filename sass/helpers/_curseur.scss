@@ -1,0 +1,25 @@
+.curseur{
+    width:30px;
+    height:50px;
+    border: 2px solid $blanc;
+    border-radius:50px;
+    position:relative;
+
+    div{
+        width:5px;
+        height:12px;
+        background:$blanc;
+        border-radius:50px;
+        position:absolute;
+        left:50%;
+        top:8px;
+        transform:translateX(-50%);
+        transition:all 0.2s ease-in;
+    }
+
+    &:hover{
+        div{
+            top:27px;
+        }
+    }
+}

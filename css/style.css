@@ -93,6 +93,25 @@ button {
   button:hover::after {
     left: 100%; }
 
+.curseur {
+  width: 30px;
+  height: 50px;
+  border: 2px solid #FDFDFD;
+  border-radius: 50px;
+  position: relative; }
+  .curseur div {
+    width: 5px;
+    height: 12px;
+    background: #FDFDFD;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    transform: translateX(-50%);
+    transition: all 0.2s ease-in; }
+  .curseur:hover div {
+    top: 27px; }
+
 header {
   width: 100%;
   height: 107px;
@@ -184,15 +203,19 @@ main.home {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 0 60px 0;
+    box-sizing: border-box; }
     main.home section:first-child article {
       width: 100%;
       max-width: 1040px;
       height: auto;
       background: #FDFDFD;
       border-radius: 10px;
-      padding: 12px 40px 18px 40px; }
+      padding: 12px 27px 18px 27px;
+      box-sizing: border-box;
+      margin: 140px 0 130px 0; }
       main.home section:first-child article > div {
         width: 100%;
         height: auto;

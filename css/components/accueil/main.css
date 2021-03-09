@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$blanc".
-        on line 32 of /Users/benjaminbourgouin/.bitnami/stackman/machines/xampp/volumes/root/htdocs/montaini/sass/components/accueil/main.scss
+        on line 34 of /Users/benjaminbourgouin/.bitnami/stackman/machines/xampp/volumes/root/htdocs/montaini/sass/components/accueil/main.scss
 
-27: 
-28:         article{
-29:             width:100%;
-30:             max-width:1040px;
-31:             height:auto;
-32:             background:$blanc;
-33:             border-radius:10px;
-34:             padding:12px 40px 18px 40px;
-35: 
-36:             &>div{
-37:                 width:100%;
+29: 
+30:         article{
+31:             width:100%;
+32:             max-width:1040px;
+33:             height:auto;
+34:             background:$blanc;
+35:             border-radius:10px;
+36:             padding:12px 27px 18px 27px;
+37:             box-sizing:border-box;
+38:             margin:140px 0 130px 0;
+39: 
 
 Backtrace:
-/Users/benjaminbourgouin/.bitnami/stackman/machines/xampp/volumes/root/htdocs/montaini/sass/components/accueil/main.scss:32
+/Users/benjaminbourgouin/.bitnami/stackman/machines/xampp/volumes/root/htdocs/montaini/sass/components/accueil/main.scss:34
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blanc\".\A         on line 32 of /Users/benjaminbourgouin/.bitnami/stackman/machines/xampp/volumes/root/htdocs/montaini/sass/components/accueil/main.scss\A \A 27: \A 28:         article{\A 29:             width:100%;\A 30:             max-width:1040px;\A 31:             height:auto;\A 32:             background:$blanc;\A 33:             border-radius:10px;\A 34:             padding:12px 40px 18px 40px;\A 35: \A 36:             &>div{\A 37:                 width:100%;"; }
+  content: "Error: Undefined variable: \"$blanc\".\A         on line 34 of /Users/benjaminbourgouin/.bitnami/stackman/machines/xampp/volumes/root/htdocs/montaini/sass/components/accueil/main.scss\A \A 29: \A 30:         article{\A 31:             width:100%;\A 32:             max-width:1040px;\A 33:             height:auto;\A 34:             background:$blanc;\A 35:             border-radius:10px;\A 36:             padding:12px 27px 18px 27px;\A 37:             box-sizing:border-box;\A 38:             margin:140px 0 130px 0;\A 39: "; }
