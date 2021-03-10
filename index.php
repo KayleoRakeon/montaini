@@ -12,7 +12,7 @@
 
 <div class="background"></div>
 
-<main class="home">
+<main class="accueil home">
     <section>
 
         <h1>Réservez vos vacances<br>à la montagne !</h1>
@@ -84,14 +84,16 @@
         </div>
         
     </section>
+</main>
 
+<main class="accueil visite">
     <section>
         <div>
-            <h2>Visites les<br>plus populaires</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta sed fugiat pariatur et modi dicta esse perspiciatis libero eaque nesciunt molestiae dignissimos amet, saepe ea rerum velit alias minima?</p>
+            <h2>Visites les plus<br>populaires</h2>
+            <p class="p_visite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta sed fugiat pariatur et modi dicta esse perspiciatis libero eaque nesciunt molestiae dignissimos amet, saepe ea rerum velit alias minima?</p>
         </div>
 
-        <div>
+        <div class="cartes">
             <article class="carte">
                 <img src="img/photo/alpes.jpg" alt="Alpes françaises">
                 <p class="p_lieu">Alpes françaises</p>

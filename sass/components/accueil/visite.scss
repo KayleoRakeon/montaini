@@ -1,0 +1,31 @@
+main.visite.accueil{
+    width:100%;
+    height:auto;
+    background:$bleu;
+
+    section{
+        width:100%;
+        max-width:1344px;
+        margin:auto;
+        height:auto;
+        padding:130px 0 90px 0;
+        box-sizing:border-box;
+
+        div:first-child{
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-start;
+            margin:0 0 50px 0;
+
+            h2{
+                width:470px;
+            }
+
+            p{
+                width:440px;
+            }
+
+            @import "carte.scss";
+        }
+    }
+}

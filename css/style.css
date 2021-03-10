@@ -14,7 +14,8 @@ nav div ul li a {
   transition: all 0.25s ease-in; }
 
 .onScroll nav div ul li a {
-  color: #202020; }
+  color: #202020;
+  text-shadow: none; }
 
 h1 {
   font-family: "Asap", sans-serif;
@@ -25,6 +26,23 @@ h1 {
   text-transform: uppercase;
   text-shadow: 0 0 20px #202020;
   text-align: center; }
+
+h2 {
+  font-family: "Asap", sans-serif;
+  color: #202020;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative; }
+  h2::after {
+    content: '';
+    height: 5px;
+    width: 100%;
+    background: #FF8624;
+    position: absolute;
+    left: 0;
+    bottom: -15px; }
 
 label {
   font-family: "Montserrat", sans-serif;
@@ -40,6 +58,14 @@ select {
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: 400; }
+
+.p_visite {
+  font-family: "Montserrat", sans-serif;
+  color: #202020;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 30px; }
 
 .clear {
   clear: both; }
@@ -193,12 +219,12 @@ header.onScroll {
   -webkit-fiflter: blur(5px);
   z-index: -1; }
 
-main.home {
+main.home.accueil {
   width: 100%;
   max-width: 1344px;
   height: auto;
   margin: auto; }
-  main.home section:first-child {
+  main.home.accueil section:first-child {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -207,7 +233,7 @@ main.home {
     align-items: center;
     padding: 0 0 60px 0;
     box-sizing: border-box; }
-    main.home section:first-child article {
+    main.home.accueil section:first-child article {
       width: 100%;
       max-width: 1040px;
       height: auto;
@@ -216,11 +242,11 @@ main.home {
       padding: 12px 27px 18px 27px;
       box-sizing: border-box;
       margin: 140px 0 130px 0; }
-      main.home section:first-child article > div {
+      main.home.accueil section:first-child article > div {
         width: 100%;
         height: auto;
         margin: 0 0 16px 0; }
-        main.home section:first-child article > div .selection {
+        main.home.accueil section:first-child article > div .selection {
           width: 25%;
           height: auto;
           float: left;
@@ -228,10 +254,10 @@ main.home {
           flex-direction: column;
           padding: 0 13px;
           box-sizing: border-box; }
-          main.home section:first-child article > div .selection .wrapper {
+          main.home.accueil section:first-child article > div .selection .wrapper {
             width: 100%;
             position: relative; }
-            main.home section:first-child article > div .selection .wrapper::before {
+            main.home.accueil section:first-child article > div .selection .wrapper::before {
               content: "";
               width: 12px;
               height: 12px;
@@ -242,8 +268,43 @@ main.home {
               right: 10px;
               clip-path: polygon(100% 0, 0 0, 100% 100%);
               pointer-events: none; }
-          main.home section:first-child article > div .selection select {
+          main.home.accueil section:first-child article > div .selection select {
             appearance: none;
             width: 100%;
             padding: 16px 10px;
             box-sizing: border-box; }
+
+main.visite.accueil {
+  width: 100%;
+  height: auto;
+  background: #F5FBFF; }
+  main.visite.accueil section {
+    width: 100%;
+    max-width: 1344px;
+    margin: auto;
+    height: auto;
+    padding: 130px 0 90px 0;
+    box-sizing: border-box; }
+    main.visite.accueil section div:first-child {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 0 0 50px 0; }
+      main.visite.accueil section div:first-child h2 {
+        width: 470px; }
+      main.visite.accueil section div:first-child p {
+        width: 440px; }
+      main.visite.accueil section div:first-child .cartes {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; }
+        main.visite.accueil section div:first-child .cartes .carte {
+          width: calc((100% - 160px) / 3);
+          height: auto;
+          background: #FDFDFD;
+          border-radius: 10px; }
+          main.visite.accueil section div:first-child .cartes .carte img {
+            width: 330px; }
