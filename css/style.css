@@ -196,7 +196,7 @@ header.onScroll {
 main.home {
   width: 100%;
   max-width: 1344px;
-  height: 100vh;
+  height: auto;
   margin: auto; }
   main.home section:first-child {
     width: 100%;

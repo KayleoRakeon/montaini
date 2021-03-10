@@ -84,6 +84,27 @@
         </div>
         
     </section>
+
+    <section>
+       <div>
+          <h2>Visites les<br>plus populaires</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta sed fugiat pariatur et modi dicta esse perspiciatis libero eaque nesciunt molestiae dignissimos amet, saepe ea rerum velit alias minima?</p>
+       </div>
+
+       <div>
+          <article class="carte">
+             <img src="<?=$root?>/img/photo/alpes.jpg" alt="Alpes françaises">
+             <p class="p_lieu">Alpes françaises</p>
+             <p class="p_activite">Ski et randonnée</p>
+             <div>
+                <div class="info">
+                   <img src="<?=$root?>/img/picto/" alt="">
+                </div>
+             </div>
+             <button>Choisir une date</button>
+          </article>
+       </div>
+    </section>
 </main>
 
 
