@@ -86,24 +86,87 @@
     </section>
 
     <section>
-       <div>
-          <h2>Visites les<br>plus populaires</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta sed fugiat pariatur et modi dicta esse perspiciatis libero eaque nesciunt molestiae dignissimos amet, saepe ea rerum velit alias minima?</p>
-       </div>
+        <div>
+            <h2>Visites les<br>plus populaires</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta sed fugiat pariatur et modi dicta esse perspiciatis libero eaque nesciunt molestiae dignissimos amet, saepe ea rerum velit alias minima?</p>
+        </div>
 
-       <div>
-          <article class="carte">
-             <img src="<?=$root?>/img/photo/alpes.jpg" alt="Alpes françaises">
-             <p class="p_lieu">Alpes françaises</p>
-             <p class="p_activite">Ski et randonnée</p>
-             <div>
-                <div class="info">
-                   <img src="<?=$root?>/img/picto/" alt="">
+        <div>
+            <article class="carte">
+                <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                <p class="p_lieu">Alpes françaises</p>
+                <p class="p_activite">Ski et randonnée</p>
+                <div>
+                    <div class="info">
+                        <img src="img/picto/calendrier.png" alt="Pictogramme d'un calendrier">
+                        <p class="categorie">Disponibilité</p>
+                        <p>Toute l'année</p>
+                    </div>
+                    <div class="info milieu">
+                        <img src="img/picto/horloge.png" alt="Pictogramme d'une horloge">
+                        <p class="categorie">Durée</p>
+                        <p>1 jour</p>
+                    </div>
+                    <div class="info">
+                        <img src="img/picto/etiquette.png" alt="Pictogramme d'une étiquette">
+                        <p class="categorie">À partir de</p>
+                        <p>166,50€</p>
+                    </div>
                 </div>
-             </div>
-             <button>Choisir une date</button>
-          </article>
-       </div>
+                <button>Choisir une date</button>
+            </article>
+
+            <article class="carte">
+                <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                <p class="p_lieu">Alpes françaises</p>
+                <p class="p_activite">Ski et randonnée</p>
+                <div>
+                    <div class="info">
+                        <img src="img/picto/calendrier.png" alt="Pictogramme d'un calendrier">
+                        <p class="categorie">Disponibilité</p>
+                        <p>Toute l'année</p>
+                    </div>
+                    <div class="info milieu">
+                        <img src="img/picto/horloge.png" alt="Pictogramme d'une horloge">
+                        <p class="categorie">Durée</p>
+                        <p>1 jour</p>
+                    </div>
+                    <div class="info">
+                        <img src="img/picto/etiquette.png" alt="Pictogramme d'une étiquette">
+                        <p class="categorie">À partir de</p>
+                        <p>166,50€</p>
+                    </div>
+                </div>
+                <button>Choisir une date</button>
+            </article>
+
+            <article class="carte">
+                <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                <p class="p_lieu">Alpes françaises</p>
+                <p class="p_activite">Ski et randonnée</p>
+                <div>
+                    <div class="info">
+                        <img src="img/picto/calendrier.png" alt="Pictogramme d'un calendrier">
+                        <p class="categorie">Disponibilité</p>
+                        <p>Toute l'année</p>
+                    </div>
+                    <div class="info milieu">
+                        <img src="img/picto/horloge.png" alt="Pictogramme d'une horloge">
+                        <p class="categorie">Durée</p>
+                        <p>1 jour</p>
+                    </div>
+                    <div class="info">
+                        <img src="img/picto/etiquette.png" alt="Pictogramme d'une étiquette">
+                        <p class="categorie">À partir de</p>
+                        <p>166,50€</p>
+                    </div>
+                </div>
+                <button>Choisir une date</button>
+            </article>
+        </div>
+
+        <button>Charger plus</button>
+
     </section>
 </main>
 
