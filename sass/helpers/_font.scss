@@ -71,3 +71,39 @@ select{
     letter-spacing:2px;
     line-height:30px;
 }
+
+.p_lieu{
+    font-family:$montserrat;
+    color:$noir;
+    font-weight:400;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    padding:0 28px;
+    box-sizing:border-box;
+}
+
+.p_activite{
+    font-family:$asap;
+    color:$noir;
+    font-weight:400;
+    font-size:32px;
+    padding:0 28px;
+    box-sizing:border-box;
+}
+
+.p_categorie{
+    font-family:$montserrat;
+    color:$noir;
+    font-weight:400;
+    font-size:10px;
+    text-transform:uppercase;
+}
+
+.info p:last-child{
+    font-family:$montserrat;
+    color:$noir;
+    font-weight:600;
+    font-size:12px;
+    text-transform:uppercase;
+}

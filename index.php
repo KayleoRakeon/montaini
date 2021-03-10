@@ -88,7 +88,7 @@
 
 <main class="accueil visite">
     <section>
-        <div>
+        <div class="titre">
             <h2>Visites les plus<br>populaires</h2>
             <p class="p_visite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta sed fugiat pariatur et modi dicta esse perspiciatis libero eaque nesciunt molestiae dignissimos amet, saepe ea rerum velit alias minima?</p>
         </div>
@@ -100,20 +100,20 @@
                 </div>
                 <p class="p_lieu">Alpes françaises</p>
                 <p class="p_activite">Ski et randonnée</p>
-                <div>
+                <div class="picto">
                     <div class="info">
                         <img src="img/picto/calendrier.png" alt="Pictogramme d'un calendrier">
-                        <p class="categorie">Disponibilité</p>
+                        <p class="p_categorie">Disponibilité</p>
                         <p>Toute l'année</p>
                     </div>
                     <div class="info milieu">
                         <img src="img/picto/horloge.png" alt="Pictogramme d'une horloge">
-                        <p class="categorie">Durée</p>
+                        <p class="p_categorie">Durée</p>
                         <p>1 jour</p>
                     </div>
                     <div class="info">
                         <img src="img/picto/etiquette.png" alt="Pictogramme d'une étiquette">
-                        <p class="categorie">À partir de</p>
+                        <p class="p_categorie">À partir de</p>
                         <p>166,50€</p>
                     </div>
                 </div>
@@ -126,20 +126,20 @@
                 </div>
                 <p class="p_lieu">Alpes françaises</p>
                 <p class="p_activite">Ski et randonnée</p>
-                <div>
+                <div class="picto">
                     <div class="info">
                         <img src="img/picto/calendrier.png" alt="Pictogramme d'un calendrier">
-                        <p class="categorie">Disponibilité</p>
+                        <p class="p_categorie">Disponibilité</p>
                         <p>Toute l'année</p>
                     </div>
                     <div class="info milieu">
                         <img src="img/picto/horloge.png" alt="Pictogramme d'une horloge">
-                        <p class="categorie">Durée</p>
+                        <p class="p_categorie">Durée</p>
                         <p>1 jour</p>
                     </div>
                     <div class="info">
                         <img src="img/picto/etiquette.png" alt="Pictogramme d'une étiquette">
-                        <p class="categorie">À partir de</p>
+                        <p class="p_categorie">À partir de</p>
                         <p>166,50€</p>
                     </div>
                 </div>
@@ -152,20 +152,20 @@
                 </div>
                 <p class="p_lieu">Alpes françaises</p>
                 <p class="p_activite">Ski et randonnée</p>
-                <div>
+                <div class="picto">
                     <div class="info">
                         <img src="img/picto/calendrier.png" alt="Pictogramme d'un calendrier">
-                        <p class="categorie">Disponibilité</p>
+                        <p class="p_categorie">Disponibilité</p>
                         <p>Toute l'année</p>
                     </div>
                     <div class="info milieu">
                         <img src="img/picto/horloge.png" alt="Pictogramme d'une horloge">
-                        <p class="categorie">Durée</p>
+                        <p class="p_categorie">Durée</p>
                         <p>1 jour</p>
                     </div>
                     <div class="info">
                         <img src="img/picto/etiquette.png" alt="Pictogramme d'une étiquette">
-                        <p class="categorie">À partir de</p>
+                        <p class="p_categorie">À partir de</p>
                         <p>166,50€</p>
                     </div>
                 </div>

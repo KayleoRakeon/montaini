@@ -8,10 +8,10 @@ main.visite.accueil{
         max-width:1344px;
         margin:auto;
         height:auto;
-        padding:130px 0 90px 0;
+        padding:130px 0 110px 0;
         box-sizing:border-box;
 
-        div:first-child{
+        .titre{
             display:flex;
             justify-content:space-between;
             align-items:flex-start;

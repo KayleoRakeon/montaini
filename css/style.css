@@ -67,6 +67,38 @@ select {
   letter-spacing: 2px;
   line-height: 30px; }
 
+.p_lieu {
+  font-family: "Montserrat", sans-serif;
+  color: #202020;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 28px;
+  box-sizing: border-box; }
+
+.p_activite {
+  font-family: "Asap", sans-serif;
+  color: #202020;
+  font-weight: 400;
+  font-size: 32px;
+  padding: 0 28px;
+  box-sizing: border-box; }
+
+.p_categorie {
+  font-family: "Montserrat", sans-serif;
+  color: #202020;
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase; }
+
+.info p:last-child {
+  font-family: "Montserrat", sans-serif;
+  color: #202020;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase; }
+
 .clear {
   clear: both; }
 
@@ -78,7 +110,7 @@ button {
   text-align: center;
   font-family: "Asap", sans-serif;
   color: #FDFDFD;
-  background: #FF8624;
+  background: transparent;
   border-radius: 5px;
   font-size: 18px;
   font-weight: 700;
@@ -88,7 +120,7 @@ button {
   position: relative;
   transition: all 0.2s ease-in;
   overflow: hidden; }
-  button::after {
+  button::after, button::before {
     content: "Trouver mes vacances !";
     display: flex;
     justify-content: center;
@@ -102,22 +134,52 @@ button {
     top: 0;
     transition: all 0.2s ease-in; }
   button::before {
-    content: "Trouver mes vacances !";
+    background: #202020;
+    left: -100%; }
+  button:hover::before {
+    left: 0; }
+  button:hover::after {
+    left: 100%; }
+
+.carte button {
+  width: calc(100% - 56px);
+  margin: 30px auto;
+  padding: 15px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(20, 20, 20, 0.25); }
+  .carte button::after, .carte button::before {
+    content: "Choisir une date";
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    background: #202020;
+    background: #FDFDFD;
+    color: #202020;
     border-radius: 5px;
     position: absolute;
-    left: -100%;
+    left: 0;
     top: 0;
     transition: all 0.2s ease-in; }
-  button:hover::before {
-    left: 0; }
-  button:hover::after {
-    left: 100%; }
+  .carte button::before {
+    background: #202020;
+    color: #FDFDFD;
+    left: -100%; }
+  .carte button:hover {
+    border-color: #FDFDFD; }
+    .carte button:hover::before {
+      left: 0; }
+    .carte button:hover::after {
+      left: 100%; }
+
+.visite section > button {
+  width: calc((100% / 3) - (160px / 3));
+  padding: 20px 0;
+  box-sizing: border-box;
+  margin: 90px auto 0 auto;
+  font-size: 24px; }
+  .visite section > button::before, .visite section > button::after {
+    content: "charger plus"; }
 
 .curseur {
   width: 30px;
@@ -283,16 +345,16 @@ main.visite.accueil {
     max-width: 1344px;
     margin: auto;
     height: auto;
-    padding: 130px 0 90px 0;
+    padding: 130px 0 110px 0;
     box-sizing: border-box; }
-    main.visite.accueil section div:first-child {
+    main.visite.accueil section .titre {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       margin: 0 0 50px 0; }
-      main.visite.accueil section div:first-child h2 {
+      main.visite.accueil section .titre h2 {
         width: 470px; }
-      main.visite.accueil section div:first-child p {
+      main.visite.accueil section .titre p {
         width: 440px; }
     main.visite.accueil section .cartes {
       width: 100%;
@@ -305,15 +367,52 @@ main.visite.accueil {
         width: calc((100% / 3) - (160px / 3));
         height: auto;
         background: #FDFDFD;
-        border-radius: 10px; }
+        border-radius: 10px;
+        box-shadow: 4px 4px 14px rgba(20, 20, 20, 0.1); }
         main.visite.accueil section .cartes .carte .img {
           width: 100%;
           padding-top: 90%;
           position: relative;
           border-radius: 10px;
-          overflow: hidden; }
+          overflow: hidden;
+          margin: 0 0 40px 0; }
           main.visite.accueil section .cartes .carte .img img {
             position: absolute;
             top: 0;
             left: -50%;
             width: 150%; }
+        main.visite.accueil section .cartes .carte .picto {
+          width: 100%;
+          height: auto;
+          padding: 0 28px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 20px auto 0 auto; }
+          main.visite.accueil section .cartes .carte .picto .info {
+            width: calc(100%  / 3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            main.visite.accueil section .cartes .carte .picto .info img {
+              width: 40px;
+              margin: 0 0 10px 0; }
+            main.visite.accueil section .cartes .carte .picto .info .p_categorie {
+              margin: 0 0 3px 0; }
+            main.visite.accueil section .cartes .carte .picto .info.milieu {
+              position: relative; }
+              main.visite.accueil section .cartes .carte .picto .info.milieu::before, main.visite.accueil section .cartes .carte .picto .info.milieu::after {
+                content: '';
+                width: 1px;
+                height: 100%;
+                background: #202020;
+                position: absolute;
+                opacity: 0.25; }
+              main.visite.accueil section .cartes .carte .picto .info.milieu::before {
+                left: 0;
+                top: 0; }
+              main.visite.accueil section .cartes .carte .picto .info.milieu::after {
+                right: 0;
+                top: 0; }
