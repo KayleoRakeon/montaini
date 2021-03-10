@@ -302,7 +302,7 @@ main.visite.accueil {
         align-items: center;
         flex-wrap: wrap; }
         main.visite.accueil section div:first-child .cartes .carte {
-          width: calc((100% - 160px) / 3);
+          width: calc((100% / 3) - 160px);
           height: auto;
           background: #FDFDFD;
           border-radius: 10px; }
