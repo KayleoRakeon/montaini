@@ -294,17 +294,26 @@ main.visite.accueil {
         width: 470px; }
       main.visite.accueil section div:first-child p {
         width: 440px; }
-      main.visite.accueil section div:first-child .cartes {
-        width: 100%;
+    main.visite.accueil section .cartes {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+      main.visite.accueil section .cartes .carte {
+        width: calc((100% / 3) - (160px / 3));
         height: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap; }
-        main.visite.accueil section div:first-child .cartes .carte {
-          width: calc((100% / 3) - 160px);
-          height: auto;
-          background: #FDFDFD;
-          border-radius: 10px; }
-          main.visite.accueil section div:first-child .cartes .carte img {
-            width: 330px; }
+        background: #FDFDFD;
+        border-radius: 10px; }
+        main.visite.accueil section .cartes .carte .img {
+          width: 100%;
+          padding-top: 90%;
+          position: relative;
+          border-radius: 10px;
+          overflow: hidden; }
+          main.visite.accueil section .cartes .carte .img img {
+            position: absolute;
+            top: 0;
+            left: -50%;
+            width: 150%; }

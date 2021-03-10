@@ -95,7 +95,9 @@
 
         <div class="cartes">
             <article class="carte">
-                <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                <div class="img">
+                    <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                </div>
                 <p class="p_lieu">Alpes françaises</p>
                 <p class="p_activite">Ski et randonnée</p>
                 <div>
@@ -119,7 +121,9 @@
             </article>
 
             <article class="carte">
-                <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                <div class="img">
+                    <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                </div>
                 <p class="p_lieu">Alpes françaises</p>
                 <p class="p_activite">Ski et randonnée</p>
                 <div>
@@ -143,7 +147,9 @@
             </article>
 
             <article class="carte">
-                <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                <div class="img">
+                    <img src="img/photo/alpes.jpg" alt="Alpes françaises">
+                </div>
                 <p class="p_lieu">Alpes françaises</p>
                 <p class="p_activite">Ski et randonnée</p>
                 <div>

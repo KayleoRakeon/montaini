@@ -7,13 +7,24 @@
     flex-wrap:wrap;
 
     .carte{
-        width:calc((100% / 3) - 160px);
+        width:calc((100% / 3) - (160px / 3));
         height:auto;
         background:$blanc;
         border-radius:10px;
 
-        img{
-            width:330px;
+        .img{
+            width:100%;
+            padding-top:90%;
+            position:relative;
+            border-radius:10px;
+            overflow:hidden;
+
+            img{
+                position:absolute;
+                top:0;
+                left:-50%;
+                width:150%;
+            }
         }
     }
 }
